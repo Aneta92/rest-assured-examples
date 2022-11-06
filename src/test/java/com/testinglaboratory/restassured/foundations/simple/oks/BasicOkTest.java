@@ -28,6 +28,7 @@ public class BasicOkTest {
     public void shouldReturnStatus200() {
         when()
                 .get("/ok")
+//                .prettyPeek()
                 .then()
                 .statusCode(200);
     }
